@@ -133,7 +133,18 @@ Run
 $ ssh -i /Users/name/.ssh/kp_devops root@<ip_address>
 ```
 
-Input `yes`. Now you are in the EC2 instance on AWS.
+Input `yes` if required. Now you are in the EC2 instance on AWS.
+
+The output will look like
+
+```
+[root@ip-x-x-x-x ~]# pwd
+/root
+[root@ip-x-x-x-x ~]# cd /
+[root@ip-x-x-x-x /]# ls
+bin   dev  home  lib64       media  opt   root  selinux  sys  usr
+boot  etc  lib   lost+found  mnt    proc  sbin  srv      tmp  var
+```
 
 You can also go to AWS EC2 Dashboard, VPC Dashboard, Subnets, Route Tables, Internet Gateways, Elastic IPs, Security Group, Key Pairs pages to see your resources status and configurations on AWS.
 
